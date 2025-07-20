@@ -742,186 +742,222 @@
             background: rgba(255, 64, 129, 0.8);
         }
         .contact-box {
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    border-radius: 20px;
-    padding: 2.5rem;
-    max-width: 650px;
-    margin: 3rem auto;
-    text-align: center;
-    backdrop-filter: blur(15px);
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
-    transition: all 0.3s ease;
-}
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 20px;
+            padding: 2.5rem;
+            max-width: 650px;
+            margin: 3rem auto;
+            text-align: center;
+            backdrop-filter: blur(15px);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+            transition: all 0.3s ease;
+        }
 
-.contact-box:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 15px 35px rgba(0, 212, 255, 0.1);
-}
+        .contact-box:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 15px 35px rgba(0, 212, 255, 0.1);
+        }
 
-.contact-intro {
-    font-size: 1.15rem;
-    margin-bottom: 2rem;
-    line-height: 1.8;
-    color: #f0f0f0;
-}
+        .contact-intro {
+            font-size: 1.15rem;
+            margin-bottom: 2rem;
+            line-height: 1.8;
+            color: #f0f0f0;
+        }
 
-.contact-info p {
-    margin: 1rem 0;
-    font-size: 1.05rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.6rem;
-    color: #e0e0e0;
-}
+        .contact-info p {
+            margin: 1rem 0;
+            font-size: 1.05rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.6rem;
+            color: #e0e0e0;
+        }
 
-.contact-info a {
-    color: #00d4ff;
-    font-weight: 500;
-    text-decoration: none;
-    transition: all 0.3s ease;
-}
+        .contact-info a {
+            color: #00d4ff;
+            font-weight: 500;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
 
-.contact-info a:hover {
-    color: #ff4081;
-    transform: translateY(-2px);
-}
+        .contact-info a:hover {
+            color: #ff4081;
+            transform: translateY(-2px);
+        }
 
-/* Icon Style */
-.contact-info strong::before {
-    content: '';
-    display: inline-block;
-    margin-right: 0.4rem;
-}
+        /* Icon Style */
+        .contact-info strong::before {
+            content: '';
+            display: inline-block;
+            margin-right: 0.4rem;
+        }
 
-/* Resume Button */
-.resume-button.glow-on-hover {
-    display: inline-block;
-    margin-top: 2rem;
-    padding: 14px 36px;
-    border-radius: 50px;
-    background: linear-gradient(90deg, #00d4ff, #ff4081);
-    color: white;
-    font-weight: bold;
-    font-size: 1rem;
-    text-decoration: none;
-    box-shadow: 0 0 15px rgba(0, 212, 255, 0.25);
-    transition: all 0.3s ease;
-}
+        /* Resume Button */
+        .resume-button.glow-on-hover {
+            display: inline-block;
+            margin-top: 2rem;
+            padding: 14px 36px;
+            border-radius: 50px;
+            background: linear-gradient(90deg, #00d4ff, #ff4081);
+            color: white;
+            font-weight: bold;
+            font-size: 1rem;
+            text-decoration: none;
+            box-shadow: 0 0 15px rgba(0, 212, 255, 0.25);
+            transition: all 0.3s ease;
+        }
 
-.resume-button.glow-on-hover:hover {
-    transform: scale(1.04) translateY(-2px);
-    box-shadow: 0 0 25px rgba(255, 64, 129, 0.35);
-}
-.profile-img.clean-img {
-    width: 220px;
-    height: 220px;
-    border-radius: 50%;
-    overflow: hidden;
-    border: 4px solid #6c63ff;
-    box-shadow: 0 0 20px rgba(108, 99, 255, 0.3);
-    margin: auto;
-    background: none;
-}
+        .resume-button.glow-on-hover:hover {
+            transform: scale(1.04) translateY(-2px);
+            box-shadow: 0 0 25px rgba(255, 64, 129, 0.35);
+        }
+        .profile-img.clean-img {
+            width: 220px;
+            height: 220px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 4px solid #6c63ff;
+            box-shadow: 0 0 20px rgba(108, 99, 255, 0.3);
+            margin: auto;
+            background: none;
+        }
 
-.profile-img.clean-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-}
+        .profile-img.clean-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
 
 
-/* Responsive */
-@media (max-width: 600px) {
-    .contact-box {
-        padding: 2rem 1.5rem;
-    }
+        /* Responsive */
+        @media (max-width: 600px) {
+            .contact-box {
+                padding: 2rem 1.5rem;
+            }
 
-    .resume-button.glow-on-hover {
+            .resume-button.glow-on-hover {
+                width: 100%;
+            }
+
+            .contact-info p {
+                flex-direction: column;
+                gap: 0.2rem;
+            }
+        }
+        .about-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+
+        .profile-img.clean-img {
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 4px solid #6c63ff;
+        box-shadow: 0 0 20px rgba(108, 99, 255, 0.3);
+        background: none; /* Removes any emoji/gradient */
+        position: relative;
+        }
+
+        .profile-img.clean-img img {
         width: 100%;
-    }
+        height: 100%;
+        object-fit: cover;           /* Zooms in & crops to fill */
+        object-position: center top; /* Aligns to show your face */
+        display: block;
+        transform: scale(1.2);
+        object-fit: cover;
+        object-position: center top;
+        }
 
-    .contact-info p {
+        .projects-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+        }
+
+        .project-card {
+        padding: 1rem;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        display: flex;
         flex-direction: column;
-        gap: 0.2rem;
-    }
-}
-.about-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+        justify-content: space-between;
+        min-height: 300px; /* Ensures consistent card height */
+        }
 
-.profile-img.clean-img {
-  width: 350px;
-  height: 350px;
-  border-radius: 50%;
-  overflow: hidden;
-  border: 4px solid #6c63ff;
-  box-shadow: 0 0 20px rgba(108, 99, 255, 0.3);
-  background: none; /* Removes any emoji/gradient */
-  position: relative;
-}
+        .project-content {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        }
 
-.profile-img.clean-img img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;           /* Zooms in & crops to fill */
-  object-position: center top; /* Aligns to show your face */
-  display: block;
-  transform: scale(1.2);
-  object-fit: cover;
-  object-position: center top;
-}
+        .project-content h3 {
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+        }
 
-.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-}
+        .project-content p {
+        flex-grow: 1;
+        margin-bottom: 1.2rem;
+        }
 
-.project-card {
-  padding: 1rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  min-height: 300px; /* Ensures consistent card height */
-}
+        .project-links {
+        margin-top: auto;
+        }
 
-.project-content {
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
+        .project-links a {
+        color: #6c63ff;
+        text-decoration: none;
+        font-weight: bold;
+        }
 
-.project-content h3 {
-  font-size: 1.2rem;
-  margin-bottom: 0.5rem;
-}
+        .project-links a:hover {
+        text-decoration: underline;
+        }
 
-.project-content p {
-  flex-grow: 1;
-  margin-bottom: 1.2rem;
-}
+        .project-card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            padding: 0.7rem;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+            min-height: 320px;
+        }
 
-.project-links {
-  margin-top: auto;
-}
+        .project-card h3 {
+            font-size: 1.4rem;
+            margin-bottom: 0.8rem;
+            color: #00d4ff;
+        }
 
-.project-links a {
-  color: #6c63ff;
-  text-decoration: none;
-  font-weight: bold;
-}
+        .project-card ul {
+            padding-left: 1.2rem;
+            list-style-type: disc;
+            color: #e0e0e0;
+            font-size: 0.95rem;
+            line-height: 1.7;
+            opacity: 0.95;
+        }
 
-.project-links a:hover {
-  text-decoration: underline;
-}
+        .project-card ul li {
+            margin-bottom: 0.5rem;
+        }
+
+        .project-card:hover {
+            transform: translateY(-8px) scale(1.02);
+            box-shadow: 0 10px 25px rgba(0, 212, 255, 0.1);
+            border-color: rgba(0, 212, 255, 0.2);
+         }
+
 
 
     </style>
@@ -1083,7 +1119,14 @@
                     <!-- <div class="project-img">🧑‍🤝‍🧑</div> -->
                     <div class="project-content">
                     <h3>Collaborative Whiteboard with AI</h3>
-                    <p>A real-time whiteboard application enabling multiple users to draw, write, and collaborate simultaneously—integrated with AI tools for smart text suggestions and shape recognition.</p>
+                       <ul>
+                            <li>Real-time multi-user whiteboard with live cursors, chat, sticky notes, and undo/redo.</li>
+                            <li>AI prompts like "draw 5 circles" interpreted via backend LLM.</li>
+                            <li>Handles 5+ users with 200+ sync events/sec using Socket.IO.</li>
+                            <li>Tech: React, Node.js, MongoDB, Konva.js, Express.</li>
+                        </ul>
+
+
                     <div class="project-links">
 
                         <a href="https://github.com/preyashah7/WhiteBoardWebApp" target="_blank" rel="noopener noreferrer"  >GitHub</a>
@@ -1095,7 +1138,13 @@
                     <!-- <div class="project-img">🤖</div> -->
                     <div class="project-content">
                     <h3>Prompt to ML</h3>
-                    <p>An intuitive ML pipeline builder where users can upload datasets and write prompts (stepwise or full). It generates a complete machine learning pipeline with preprocessing, training, and evaluation.</p>
+                        <ul>
+                            <li>LLM-based ML assistant that converts CSV + prompt into full Python pipeline.</li>
+                            <li>Generates 7+ files (code, plots, README) per session in &lt;5 seconds.</li>
+                            <li>90%+ prompt-to-code success rate across 50+ ML use cases.</li>
+                            <li>Tech: React, Node.js, Python, OpenRouter (Mixtral LLM).</li>
+                        </ul>
+
                     <div class="project-links">
 
                         <a href="https://github.com/preyashah7/Prompt2ML-" target="_blank" rel="noopener noreferrer">GitHub</a>
@@ -1107,7 +1156,13 @@
                     <!-- <div class="project-img">📈</div> -->
                     <div class="project-content">
                     <h3>DSA-Based Trade Bot</h3>
-                    <p>An intelligent trading bot built using data structures and algorithms for signal detection and decision-making. Simulates real-world trading with mock APIs and strategic logic.</p>
+                        <ul>
+                            <li>Java trading simulator using DP, Greedy, and K-Transaction strategies.</li>
+                            <li>Processes 1,000+ days of data and simulates 500+ trades/run.</li>
+                            <li>Modular OOP structure with sub-100ms execution per strategy.</li>
+                            <li>Tech: Java, CLI, custom Logger + strategy classes.</li>
+                        </ul>
+
                     <div class="project-links">
 
                         <a href="https://github.com/preyashah7/DSA-Based-Trade-Bot" target="_blank" rel="noopener noreferrer">GitHub</a>
@@ -1119,7 +1174,13 @@
                     <!-- <div class="project-img">🎯</div> -->
                     <div class="project-content">
                     <h3>CareerSetGo</h3>
-                    <p>A job portal built during Smart India Hackathon featuring resume building, job recommendations, skill assessments, and AI-powered matching for candidates and employers.</p>
+                    <ul>
+                        <li>Career platform with resume builder & AI mentor.</li>
+                        <li>Detects skill gaps and recommends learning paths</li>
+                        <li>Built in 36 hrs; supports 30+ resume sections and job matching.</li>
+                        <li>Tech: React, Tailwind, Node.js, Python.</li>
+                    </ul>
+
                     <div class="project-links">
 
                         <a href="https://github.com/preyashah7/TicTechToe" target="_blank" rel="noopener noreferrer">GitHub</a>
@@ -1130,8 +1191,14 @@
                 <div class="project-card">
                     <!-- <div class="project-img">🗃️</div> -->
                     <div class="project-content">
-                    <h3>Custom DBMS in Java</h3>
-                    <p>A lightweight, custom-built database engine developed in Java with basic SQL-like querying, file-based persistence, and indexing mechanisms.</p>
+                    <h3>Custom DB in Java</h3>
+                        <ul>
+                            <li>In-memory Java DB with LRU caching using Doubly Linked List + HashMap.</li>
+                            <li>Handles 10K+ ops with 95%+ cache hit rate; supports JSON persistence.</li>
+                            <li>Modular CLI with PUT, GET, DELETE; 6 clean classes.</li>
+                            <li>Tech: Java, Gson, DSA (O(1) cache ops).</li>
+                        </ul>
+
                     <div class="project-links">
 
                         <a href="https://github.com/preyashah7/CustomDB" target="_blank" rel="noopener noreferrer">GitHub</a>
@@ -1143,7 +1210,13 @@
                     <!-- <div class="project-img">🗺️</div> -->
                     <div class="project-content">
                     <h3>Wanderlust Listing Site</h3>
-                    <p>A dynamic travel accommodation platform with map integration, property listings, user reviews, and responsive UI—built with modern web technologies inspired by Airbnb.</p>
+                        <ul>
+                            <li>Travel web app with CRUD listings, map filter, reviews, and auth.</li>
+                            <li>Inspired by Airbnb; supports 50+ dynamic properties with geolocation.</li>
+                            <li>Responsive design with photo uploads and search filters.</li>
+                            <li>Tech: Express, MongoDB, EJS, Mapbox.</li>
+                        </ul>
+
                     <div class="project-links">
 
                         <a href="https://github.com/preyashah7/Wanderlust-Listing-Project" target="_blank" rel="noopener noreferrer">GitHub</a>
